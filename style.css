@@ -1,9 +1,13 @@
 body{
     font-family: 'Noto Serif', serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
+}
+h3{
+    text-align: justify;
 }
 #skip-color{
     color: orange;
@@ -20,8 +24,17 @@ section{
 }
 a{
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: rgb(255, 153, 0);
     padding: 10px;
     color: white;
+    font-weight: 600;
+}
+#first-section-bg{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+#second-section-bg{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
 }
